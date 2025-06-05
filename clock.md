@@ -19,5 +19,7 @@ One aspect I struggled with when creating this was making sure the particles fel
 The scrolling background on both the wall and the clock wasn't part of my original plan, and I first implemented it to help test, so that I could see the progress of the minute and hour; however, I think it does add a bit more utility to the clock, and so I decided to keep it.
 
 The main project can be viewed [here](/clock/index1.html).
+
 A second version of the project with a sped up timer can be viewed [here](/clock/index2.html). *(This version runs with 10 seconds in a minute and 6 minutes in an hour to ensure you can see the different effects at all times.)*
+
 You can press 'm' or 'h' on both projects to show the minute and hour effect respectively.
