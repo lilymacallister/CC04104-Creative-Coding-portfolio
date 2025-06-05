@@ -4,6 +4,8 @@ This experiment responds to the prompt: "An alternative visual way to represent 
 My approach to this was inspired by two things: fireworks and grandfather clocks. Many grandfather clocks play a large sound on the hour, with the number of notes corresponding to the hour it plays on; I took inspiration from this by adding a firework effect to every second on the clock.
 Every second, a red firework will spawn at the centre, with the number of sparks based on the current second in the minute. Every minute, green sparks will burst from the top, with the number based on the current minute in the hour. Finally, on the hour, a large blue burst will come from the top.
 
+![Image of the clock with the minute effect](/images/clock.png)
+
 ```
   tick() {
     this.x += this.dx;
