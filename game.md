@@ -4,6 +4,8 @@ This experiment responds to the prompt: "One key game (two players) with a clear
 My response to this is primarily inspired by a demo I created a few years back on Scratch in which the player would move their character in a similar way to this game.
 While that demo only had one player on an island, I adapted it to feature two players, and was inspired by Splatoon to add an objective to colour as much of the field as possible.
 
+In the game, you have two circles, one of which rotates around the other; clicking your key ('z' for the red player and 'm' for the blue player) will switch which circle is rotating. The winner is the player with the most of the field covered after 60 seconds.
+
 ![Image of the game in action](/images/game.png)
 
 ```
@@ -30,7 +32,7 @@ One of the more difficult aspects of coding this was calculating how much of the
 I did try with larger intervals as well, however this caused the scoring to be too inaccurate. To check the colours, the red and blue values of each pixel are compared; if one is greater than the other, then their respective score is increased by one, otherwise the white score is increased by one.
 While the white score has no impact on gameplay, it is used to determine the percentage of coverage.
 
-I think the project is slightly lacking in terms of visual presentation, such as the font not being properly aligned in some places and the screen generally looking somewhat uninteresting, but I'm still happy with the result as the gameplay is enjoyable and it works smoothly.
+I think the project is slightly lacking in terms of visual presentation, such as the font not being properly aligned in some places and the screen generally looking somewhat uninteresting; the lack of a starting countdown or winning animation is also something I'd like to have fixed. Overall though, I'm happy with the result as the gameplay is enjoyable and it works smoothly.
 
 An interesting change in the future could also be to add more customizability, such as the ability to change the players' colours and keybinds, or adding a third player.
 
