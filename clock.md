@@ -18,7 +18,7 @@ This code is a part of the particle class, used in the fireworks; the particles 
 
 One aspect I struggled with when creating this was making sure the particles felt realistic and interesting to look at - it was important to make sure that they would fly at the right angles and speeds, particularly with the bursts at the top, otherwise they would feel too close to each other or too random.
 
-The scrolling background on both the wall and the clock wasn't part of my original plan, and I first implemented it to help test, so that I could see the progress of the minute and hour; however, I think it does add a bit more utility to the clock, and so I decided to keep it.
+The scrolling background on both the wall and the clock wasn't part of my original plan, and I first implemented it to help test, so that I could see the progress of the minute and hour; however, I think it does add a bit more utility to the clock, and so I decided to keep it. I also considered adding another effect in the background, such as stars or buildings to give it a nighttime atmmosphere instead of the inside of a building, but I decided that this may distract from the particle effect too much, or cause performance issues if I were to render these individually (as an image may have made the scrolling background difficult).
 
 The main project can be viewed [here](/clock/index1.html).
 
